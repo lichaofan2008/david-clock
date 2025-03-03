@@ -1,0 +1,15 @@
+Source: david-clock
+Section: admin
+Priority: optional
+Maintainer: lichaofan <lichaofan.2008@163.com>
+Build-Depends:
+ debhelper (>= 9),
+ cmake,
+ pkg-config,
+ qtbase5-dev,
+
+Package: david-clock
+Architecture: any
+Depends:
+ ${shlibs:Depends},${misc:Depends}
+Description: Show clock and date full screen.

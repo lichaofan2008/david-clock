@@ -4,3 +4,5 @@ win_release
 CMakeLists.txt.user*
 *.autosave
 
+debian/
+obj-x86_64-linux-gnu/
